@@ -6,7 +6,7 @@ import './Quizdetails.css'
 const Quizdetails = () => {
 
     const datas = useLoaderData();
-    console.log(datas);
+
     const { name, questions } = datas.data;
     return (
         <div>
