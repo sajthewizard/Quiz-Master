@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { BarChart, Bar, XAxis, YAxis, Tooltip } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, Tooltip } from 'recharts'; import "./Statics.css"
 
 const Statics = () => {
     const [questions, setQuestions] = useState([]); useEffect(() => {
@@ -19,7 +19,7 @@ const Statics = () => {
             })
     }, [])
     return (
-        <BarChart width={550} height={400} data={questions}>
+        <BarChart className='bar' width={550} height={400} data={questions}>
             <Bar dataKey="total" fill="#8884d8" />
             <XAxis datakey="Total"></XAxis>
             <YAxis></YAxis>
