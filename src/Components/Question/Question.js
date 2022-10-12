@@ -2,12 +2,15 @@ import React from 'react'; import Option from '../option/Option';
 import './Question.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSadCry } from '@fortawesome/free-solid-svg-icons'
 
 
 
 const Question = ({ ques }) => {
+    const callme = () => {
+        toast(correctAnswer);
+    }
 
     const checkAnswer = option => {
         if (option === correctAnswer) {
@@ -30,6 +33,7 @@ const Question = ({ ques }) => {
                     options.map(option => <Option key={option.id} option={option} checkAnswer={checkAnswer}></Option>)
                 }
                 <ToastContainer />
+                <button onClick={callme}>Help?   <FontAwesomeIcon icon={faSadCry}></FontAwesomeIcon></button>
             </div>
 
 
