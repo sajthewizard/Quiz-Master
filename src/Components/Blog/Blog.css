@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-div h1 {
+.que {
     background-color: cornsilk;
 
     font-size: 25px;
@@ -12,13 +12,12 @@ div h1 {
 
 }
 
-div h3 {
+.ans {
     background-color: rgb(245, 216, 100);
 
     font-size: 20px;
     margin-left: 20%;
     color: black;
-
     padding: 5px;
 
 }
