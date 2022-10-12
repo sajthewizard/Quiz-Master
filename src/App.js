@@ -5,6 +5,7 @@ import About from './Components/About/About';
 import Blog from './Components/Blog/Blog';
 import Home from './Components/Home/Home';
 import Main from './Components/Layout/Main';
+import Quizdetails from './Components/Quizdetails/Quizdetails';
 import Statics from './Components/Statics/Statics';
 
 function App() {
@@ -22,6 +23,11 @@ function App() {
           path: '/',
           loader: () => { return fetch('https://openapi.programming-hero.com/api/quiz') },
           element: <Home></Home>
+        },
+        {
+          path: '/quiz/:quizid',
+          element: <Quizdetails> </Quizdetails>
+
         }
       ]
     }, { path: '*', element: <div><h1>404! Check and try again</h1></div> }
