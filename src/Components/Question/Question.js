@@ -2,6 +2,8 @@ import React from 'react'; import Option from '../option/Option';
 import './Question.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 
 
@@ -28,8 +30,6 @@ const Question = ({ ques }) => {
                     options.map(option => <Option key={option.id} option={option} checkAnswer={checkAnswer}></Option>)
                 }
                 <ToastContainer />
-
-                <p>AiFillEye</p>
             </div>
 
 
