@@ -1,0 +1,11 @@
+.ques {
+    height: 250px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 35%;
+    border: 2px solid lightgray;
+    padding: 5px;
+
+}
