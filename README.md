@@ -1,3 +1,38 @@
+Project Name : Quiz Master
+
+Live link: https://quiz-master53.netlify.app/
+
+
+1. Here I have leart more about react
+2. Revision of useEffect and use state
+3.Toaster and different other usage of React app
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
