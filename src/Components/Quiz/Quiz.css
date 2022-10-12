@@ -1,0 +1,19 @@
+.card {
+    border: 2px solid gray;
+    height: 280px;
+    width: 200px;
+    padding: 7px;
+}
+
+.card img {
+    height: 150px;
+    width: 150px;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+}

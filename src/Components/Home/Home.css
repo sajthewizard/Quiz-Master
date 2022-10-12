@@ -15,3 +15,11 @@ h3 {
     margin: 0 10%;
 
 }
+
+.quiz {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-left: 20%;
+}

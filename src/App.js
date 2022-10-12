@@ -19,10 +19,12 @@ function App() {
           path: '/statics', element: <Statics></Statics>
         },
         {
-          path: '/', element: <Home></Home>
+          path: '/',
+          loader: () => { return fetch('https://openapi.programming-hero.com/api/quiz') },
+          element: <Home></Home>
         }
       ]
-    }
+    }, { path: '*', element: <div><h1>404! Check and try again</h1></div> }
   ])
   return (
     <div className="App">
