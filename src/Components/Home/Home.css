@@ -1,0 +1,17 @@
+.header {
+    background-image: url('planning-studies-1200x675.jpg');
+    background-repeat: repeat-y;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3 {
+    color: aliceblue;
+    font-size: 35px;
+    background-color: black;
+    position: absolute;
+    bottom: 47%;
+    margin: 0 10%;
+
+}
